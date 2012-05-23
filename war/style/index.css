@@ -1,0 +1,44 @@
+body {
+	padding-top: 100px;
+}
+
+#login {
+	width: 660px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#form {
+	border: 1px solid #ccc;
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	z-index: 10;
+	border-radius: 5px;
+	box-shadow: -6px 6px 10px #cdcdcd;
+	width: 400px;
+}
+
+#pic {
+	border: 1px solid #ccc;
+	width: 300px;
+	height: 400px;
+	padding: 10px;
+	position: absolute;
+	left: 360px;
+	top: -10px;
+	z-index: 1;
+	transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	box-shadow: 6px 6px 10px #cdcdcd;
+	position: absolute;
+}
+
+#pic img {
+	width: 300px;
+	height: 400px;
+	border: 1px solid #999;
+}

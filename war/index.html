@@ -1,27 +1,32 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
-<!-- above set at the top of the file will set     -->
-<!-- the browser's rendering engine into           -->
-<!-- "Quirks Mode". Replacing this declaration     -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout.   -->
-
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Hello App Engine</title>
-  </head>
-
-  <body>
-    <h1>Hello App Engine!</h1>
-	
-    <table>
-      <tr>
-        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>        
-      </tr>
-      <tr>
-        <td><a href="lovers">Lovers</a></td>
-      </tr>
-    </table>
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>奇奇&amp;笑笑</title>
+		<link rel="stylesheet" type="text/css" href="/style/common.css">
+		<link rel="stylesheet" type="text/css" href="/style/index.css">
+	</head>
+	<body>
+		<div id="login">
+			<div id="form">
+				<form action="/login" method="post">
+					<fieldset>
+						<label for="username">用户名</label>
+						<input type="text" name="username" />
+					</fieldset>
+					<fieldset>
+						<label for="password">密码</label>
+						<input type="password" name="password" />
+					</fieldset>
+					<fieldset>
+						<label for="submit">&nbsp;</label>
+						<input type="submit" value="登陆" />
+					</fieldset>
+				</form>
+			</div>
+			<div id="pic">
+				<img src="/images/IMG_0939.jpg" />
+			</div>
+		</div>
+	</body>
 </html>
