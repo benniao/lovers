@@ -1,0 +1,51 @@
+#daily-list-c {
+	width: 600px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.daily-item {
+	padding: 3px;
+	border: 1px solid #ddd;
+}
+
+.daily-title {
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.daily-title:hover {
+	cursor: pointer;
+}
+
+.daily-item.summary .daily-summary{
+	display:block;
+}
+
+.daily-item.content .daily-summary{
+	display:none;
+}
+
+.daily-item.summary .daily-content{
+	display:none;
+}
+
+.daily-item.content .daily-content{
+	display:block;
+}
+
+.daily-summary {
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.daily-content {
+	font-size: 15px;
+	padding: 5px 10px;
+}
+
+.daily-info {
+	font-size: 13px;
+	text-align: right;
+	padding-right: 20px;
+}
