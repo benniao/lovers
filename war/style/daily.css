@@ -8,6 +8,8 @@
 .daily-item{
 	background-image: url(/images/content_background.png);
 	border: 1px solid #ddd;
+	border-style: outset;
+	
 }
 
 .daily-title {
