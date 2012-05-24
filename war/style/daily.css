@@ -1,11 +1,12 @@
 #daily-list-c {
-	width: 600px;
-	border: 1px solid #ccc;
+	width: 1000px;
 	padding: 10px;
+	float: right;
+	margin-right: 100px; 
 }
 
-.daily-item {
-	padding: 3px;
+.daily-item{
+	background-image: url(/images/content_background.png);
 	border: 1px solid #ddd;
 }
 

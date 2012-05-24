@@ -6,4 +6,8 @@ fieldset,img{border:0;}
 li{list-style:none;}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
-body{font:13px/1.231 "Microsoft YaHei","微软雅黑",arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+body{font:13px/1.231 "Microsoft YaHei","微软雅黑",arial,helvetica,clean,sans-serif;*font-size:small
+;*font:x-small;letter-spacing:2px;}
+#background{
+	background-image: url(/images/background.png);
+}
