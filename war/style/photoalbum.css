@@ -1,0 +1,57 @@
+#header {
+	font-size: 16px;
+	font-family: Trebuchet MS;
+	border-bottom: 1px dotted #CCC;
+	padding: 18px 0 0;
+	height: 40px;
+}
+
+.c {
+	display: block;
+}
+
+.L {
+	float: left;
+	color: #D10;
+	margin-left: 16px;
+}
+
+.R {
+	float: right;
+	margin-right: 16px;
+}
+
+.partionlineTop {
+	border-bottom: 1px solid #DDD;
+}
+
+.partionlineBottom {
+	border-top: 1px solid white;
+}
+
+#content-holder {
+	padding-top: 20px;
+}
+
+#content {
+	width: 90%;
+	margin-left: 5%;
+}
+
+#nav-list {
+	width: 18%;
+	border: 1px solid #C7CACC;
+	float: left;
+	text-align: center;
+}
+
+.nav-item {
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+}
+
+.nav-a {
+	color: #444;
+	background: url(/images/nav_background.png) repeat;
+}

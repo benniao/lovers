@@ -1,27 +1,170 @@
-
-
-#chat-list-c {
-	width: 600px;
-	padding: 10px;
-	margin-left:400px;
+#header {
+	font-size: 16px;
+	font-family: Trebuchet MS;
+	border-bottom: 1px dotted #CCC;
+	padding: 18px 0 0;
+	height: 40px;
 }
 
-
-
-.chat-item{
-	padding:2%;
-	border: 1px solid #ddd;
-	margin:5px 0px 5px 0px;
-	background-image: url(/images/content_background.png);
-	border-style: outset;
-	border-radius:5px;
-	box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
-
+.c {
+	display: block;
 }
 
-.chat-item-content{
-	font-size: 13px;
-	text-align: left;
-	padding-left: 5px;
+.L {
+	float: left;
+	color: #D10;
+	margin-left: 16px;
+}
 
+.R {
+	float: right;
+	margin-right: 16px;
+}
+
+.partionlineTop {
+	border-bottom: 1px solid #DDD;
+}
+
+.partionlineBottom {
+	border-top: 1px solid white;
+}
+
+#content-holder {
+	padding-top: 20px;
+}
+
+#content {
+	width: 90%;
+	margin-left: 5%;
+}
+
+#nav-list {
+	width: 18%;
+	border: 1px solid #C7CACC;
+	float: left;
+	text-align: center;
+}
+
+.nav-item {
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+}
+
+.nav-a {
+	color: #444;
+	background: url(/images/nav_background.png) repeat;
+}
+
+#feed-list {
+	float: right;
+	width: 75%;
+}
+
+.newstate_header {
+	font-size: 14px;
+	font-family: Trebuchet MS;
+	color: #D10;
+	margin-bottom: 3px;
+}
+
+.newstate {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.statecontent {
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	margin-bottom:5px;
+}
+
+.state_submit {
+	width: 65px;
+	height: 25px;
+	float: right;
+}
+
+.feed-item1 {
+	margin-bottom: 20px;
+	float: left;
+	width: 80%;
+	position: relative;
+}
+
+.triangle1 {
+	height: 25px;
+	width: 13px;
+	position: absolute;
+	top: 10px;
+	left: 14%;
+	background: url(/images/icons.png) 0 -150px no-repeat;
+}
+
+.feed-text1 {
+	background-color: white;
+	padding: 2% 2%;
+	width: 80%;
+	float: right;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.feed-author1 {
+	float: left;
+	position: relative;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	width: 64px;
+	height: 64px;
+	zoom: 1;
+}
+
+.img_author1 {
+	border-radius: 6px;
+	width: 64px;
+	height: 64px;
+}
+
+.feed-item2 {
+	margin-bottom: 20px;
+	position: relative;
+	float: right;
+	width: 80%;
+}
+
+.triangle2 {
+	height: 25px;
+	width: 13px;
+	position: absolute;
+	top: 10px;
+	left: 84.5%;
+	background: url(/images/icons.png) 0 -150px no-repeat;
+	-webkit-transform: rotate3d(0, 0, 3, 270deg);
+}
+
+.feed-text2 {
+	background-color: white;
+	padding: 2% 2%;
+	width: 80%;
+	float: left;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.feed-author2 {
+	float: right;
+	position: relative;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	width: 64px;
+	height: 64px;
+	zoom: 1;
+}
+
+.img_author2 {
+	border-radius: 6px;
+	width: 64px;
+	height: 64px;
 }
