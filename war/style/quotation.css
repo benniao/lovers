@@ -73,7 +73,7 @@
 	z-index: 1;
 	transform: rotate(7deg);
 	-webkit-transform: rotate(7deg);
-	box-shadow: 6px 6px 10px #cdcdcd;
+	box-shadow: 6px 2px 5px #cdcdcd;
 	background-color: white;
 }
 
@@ -87,7 +87,7 @@
 	z-index: 2;
 	transform: rotate(-2deg);
 	-webkit-transform: rotate(-2deg);
-	box-shadow: 6px 6px 10px #cdcdcd;
+	box-shadow: 6px 2px 5px #cdcdcd;
 }
 
 .quotation_tag1 {
@@ -109,13 +109,22 @@
 
 .item2 {
 	width: 70%;
-	height:50px;
+	height: 50px;
 	background: url(/images/quotation_background.png) repeat;
 	border: 1px solid #CCC;
+	border-radius: 5px;
 	position: absolute;
 	-webkit-transform: rotate(-1deg);
-	padding:10px 10px;
-	margin-top:80px;
-	left:13%;
+	padding: 15px 10px;
+	margin-top: 80px;
+	left: 13%;
 	z-index: 4;
+	position: absolute;
+	box-shadow: 2px 3px 5px #cdcdcd;
+}
+
+.note_tag {
+	margin-left: 40%;
+	margin-top: -27px;
+	-webkit-transform: rotate(-1deg);
 }
