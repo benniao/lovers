@@ -53,5 +53,69 @@
 
 .nav-a {
 	color: #444;
-	background: url(/images/nav_background.png) repeat;
+}
+
+#feed {
+	padding-top: 28px;
+	width: 80%;
+	float: right;
+	height: 900px;
+	width: 80%;
+}
+
+#quotation_container1 {
+	width: 50%;
+	border: 1px solid #CCC;
+	margin-left: 70px;
+	background: white;
+	height: 700px;
+	position: absolute;
+	z-index: 1;
+	transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	box-shadow: 6px 6px 10px #cdcdcd;
+	background-color: white;
+}
+
+#quotation_container2 {
+	width: 50%;
+	border: 1px solid #CCC;
+	margin-left: 70px;
+	background: white;
+	height: 700px;
+	position: absolute;
+	z-index: 2;
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	box-shadow: 6px 6px 10px #cdcdcd;
+}
+
+.quotation_tag1 {
+	margin-left: 83.7%;
+	margin-top: -30px;
+	position: absolute;
+	-webkit-transform: rotate(7deg);
+	z-index: 3;
+	position: absolute;
+}
+
+.quotation_tag2 {
+	margin-left: -39px;
+	margin-top: -38px;
+	position: absolute;
+	-webkit-transform: rotate(-2deg);
+	z-index: 3;
+}
+
+.item2 {
+	width: 70%;
+	height:50px;
+	background: url(/images/quotation_background.png) repeat;
+	border: 1px solid #CCC;
+	position: absolute;
+	-webkit-transform: rotate(-1deg);
+	padding:10px 10px;
+	margin-top:80px;
+	left:13%;
+	z-index: 4;
 }

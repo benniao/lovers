@@ -77,7 +77,7 @@
 	height: 40px;
 	width: 100%;
 	background-color: white;
-	margin-bottom:5px;
+	margin-bottom: 5px;
 }
 
 .state_submit {
@@ -99,7 +99,6 @@
 	position: absolute;
 	top: 10px;
 	left: 14%;
-	background: url(/images/icons.png) 0 -150px no-repeat;
 }
 
 .feed-text1 {
