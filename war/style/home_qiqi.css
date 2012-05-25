@@ -1,0 +1,131 @@
+#header {
+	padding: 10px 0px;
+	border-bottom: 1px dotted #ddd;
+}
+
+#header h1 {
+	font-size: 16px;
+}
+
+#user-info {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 10px 30px 10px 0px;
+}
+
+.c {
+	width: 50%;
+	height: 240px;
+	position: absolute;
+}
+
+#daily {
+	top: 46px;
+	left: 0px;
+}
+
+#record {
+	top: 46px;
+	left: 50%;
+}
+
+#say {
+	top: 290px;
+	left: 0px;
+}
+
+#photo {
+	top: 290px;
+	left: 50%;
+}
+
+#day {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+#round-div {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	border-radius: 5%;
+	position: fixed;
+	-webkit-transition: all 0.9s;
+	top: 45%;
+	left: 45%;
+}
+
+#round-div.round-daily {
+	top: 85%;
+	left: 90%;
+	-webkit-transform: rotate(1800deg);
+}
+#round-div.round-record {
+	top: 85%;
+	left: 2%;
+	-webkit-transform: rotate(1800deg);
+}
+#round-div.round-say {
+	top: 10%;
+	left: 90%;
+	-webkit-transform: rotate(1800deg);
+}
+#round-div.round-photo {
+	top: 10%;
+	left: 2%;
+	-webkit-transform: rotate(1800deg);
+}
+
+#round-div p {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 25px;
+	z-index: 100;
+	background-color: red;
+	left: 25px;
+	top: 25px;
+	border-radius: 25px;
+}
+
+#round-div a {
+	display: block;
+	position: absolute;
+	height: 50%;
+	width: 50%;
+}
+
+#round-div a#round-daily {
+	top: 0;
+	left: 0;
+	border-top-left-radius: 100%;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.0, rgb(26,
+		69, 234) ), color-stop(1.0, rgb(26, 69, 234) ) );
+}
+
+#round-div a#round-record {
+	top: 0;
+	left: 50%;
+	border-top-right-radius: 100%;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.0, rgb(222
+		, 12, 50) ), color-stop(1.0, rgb(222, 12, 50) ) );
+}
+
+#round-div a#round-say {
+	top: 50%;
+	left: 0px;
+	border-bottom-left-radius: 100%;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.0, rgb(255
+		, 174, 0) ), color-stop(1.0, rgb(254, 174, 0) ) );
+}
+
+#round-div a#round-photo {
+	top: 50%;
+	left: 50%;
+	border-bottom-right-radius: 100%;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.0, rgb(12,
+		272, 23) ), color-stop(1.0, rgb(12, 272, 23) ) );
+}
