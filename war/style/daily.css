@@ -3,39 +3,116 @@
 	font-family: Trebuchet MS;
 	border-bottom: 1px dotted #CCC;
 	padding: 18px 0 0;
-	height:40px;
+	height: 40px;
 }
 
-.c{
+.c {
 	display: block;
 }
 
-.L{
+.L {
 	float: left;
 	color: #D10;
 	margin-left: 16px;
 }
 
-.R{
+.R {
 	float: right;
-	margin-right:16px;
-}
-#daily-list-c {
-	width:70%;
-	padding: 10px;
-	margin-left: 100px; 
+	margin-right: 16px;
 }
 
-.daily-item{
+#content-holder {
+	padding-top: 20px;
+}
+
+#content {
+	width: 90%;
+	margin-left: 5%;
+}
+
+#nav-list {
+	width: 18%;
+	border: 1px solid #C7CACC;
+	float: left;
+	text-align: center;
+}
+
+.nav-item {
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+}
+
+.nav-a {
+	color: #444;
+	background: url(/images/nav_background.png) repeat;
+}
+
+#feed-list {
+	float: right;
+	width: 75%;
+}
+
+.feed-item {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.triangle {
+	height: 25px;
+	width: 13px;
+	position: absolute;
+	top: 10px;
+	left: 87.5%;
+	background: url(/images/icons.png) 0 -150px no-repeat;
+	-webkit-transform: rotate3d(0, 0, 3, 270deg);
+}
+
+.feed-text {
+	background-color: white;
+	padding: 2% 2%;
+	width: 83%;
+	float: left;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.feed-author {
+	float: right;
+	position: relative;
+	border-radius: 6px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	width: 64px;
+	height: 64px;
+	zoom: 1;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+	width: 64px;
+}
+
+.img_author {
+	border-radius: 6px;
+	width: 64px;
+	height: 64px;
+}
+
+#daily-list-c {
+	width: 70%;
+	padding: 10px;
+	margin-left: 100px;
+}
+
+.daily-item {
 	background-color: white;
 }
-.partionlineTop{
-	border-bottom:1px solid #DDD;
+
+.partionlineTop {
+	border-bottom: 1px solid #DDD;
 }
 
-.partionlineBottom{
-	border-top:1px solid white;	
+.partionlineBottom {
+	border-top: 1px solid white;
 }
+
 .daily-title {
 	font-size: 16px;
 	padding-left: 5px;
@@ -45,20 +122,20 @@
 	cursor: pointer;
 }
 
-.daily-item.summary .daily-summary{
-	display:block;
+.daily-item.summary .daily-summary {
+	display: block;
 }
 
-.daily-item.content .daily-summary{
-	display:none;
+.daily-item.content .daily-summary {
+	display: none;
 }
 
-.daily-item.summary .daily-content{
-	display:none;
+.daily-item.summary .daily-content {
+	display: none;
 }
 
-.daily-item.content .daily-content{
-	display:block;
+.daily-item.content .daily-content {
+	display: block;
 }
 
 .daily-summary {

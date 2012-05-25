@@ -11,3 +11,8 @@ body{font:13px/1.231 "Microsoft YaHei","微软雅黑",arial,helvetica,clean,sans
 #background{
 	background-image: url(/images/background.png);
 }
+a{display:block;color:black;font-size:14px;width:100%;height:100%;text-align:center;text-decoration
+	:none}
+a:HOVER {
+	background-color: rgb(240,241,242);
+}
