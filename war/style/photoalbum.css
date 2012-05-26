@@ -77,7 +77,7 @@
 .plist-header {
 	width: 800px;
 	height: 68px;
-	margin-left: 40px;
+	margin-left: 38px;
 }
 
 .header-background {
@@ -85,12 +85,12 @@
 	z-index: 3;
 }
 
-.head-choice1 {
+#head-choice1 {
 	position: absolute;
 	display: block;
-	width: 143px;
+	width: 162px;
 	height: 42px;
-	margin-left: 55px;
+	margin-left: 60px;
 	margin-top: 10px;
 	line-height: 44px;
 	border: 1px solid black;
@@ -98,66 +98,75 @@
 	line-height: 44px;
 }
 
-.head-choice2 {
+#head-choice2 {
 	position: absolute;
 	display: block;
-	width: 120px;
+	width: 129px;
 	height: 42px;
-	margin-left: 199px;
+	margin-left: 223px;
 	margin-top: 10px;
 	line-height: 44px;
 	border: 1px solid black;
 	z-index: 6;
 }
 
-.head-choice3 {
+#head-choice3 {
 	position: absolute;
 	display: block;
-	width: 120px;
+	width: 130px;
 	height: 42px;
-	margin-left: 320px;
+	margin-left: 353px;
 	margin-top: 10px;
 	line-height: 44px;
 	border: 1px solid black;
 	z-index: 6;
 }
 
-.head-choice4 {
+#head-choice4 {
 	position: absolute;
 	display: block;
-	width: 127px;
+	width: 154px;
 	height: 42px;
-	margin-left: 441px;
+	margin-left: 484px;
 	margin-top: 10px;
 	line-height: 44px;
 	border: 1px solid black;
 	z-index: 6;
 }
 
-.head-choice5 {
+#head-choice5 {
 	position: absolute;
 	display: block;
-	width: 163px;
+	width: 180px;
 	height: 42px;
-	margin-left: 569px;
+	margin-left: 639px;
 	margin-top: 10px;
 	line-height: 44px;
 	border: 1px solid black;
 	z-index: 6;
 }
 
-.head-choice1:HOVER{
+.choice:HOVER {
 	background-color: white;
 }
 
-.plist-content {
+#plist-content {
 	position: absolute;
 	margin-top: -18px;
-	margin-left: 95px;
-	background-color: white;
-	width: 681px;
+	margin-left: 100px;
+	background-color: rgb(103,103,103);
+	width: 765px;
 	height: 600px;
-	border-radius: 6px;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 	z-index: 2;
+	overflow-y: scroll;
+}
+
+#plist-footer {
+	position: absolute;
+	z-index: 4;
+	margin-left: 100px;
+	margin-top: 571px;
+	width: 765px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
