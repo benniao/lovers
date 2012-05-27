@@ -1,0 +1,53 @@
+#quotation_container2._css_page_flip .item .page {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#quotation_container2._css_page_flip.ready .item .page {
+    -webkit-backface-visibility: hidden;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transition: 0s ease-in;
+    -webkit-transform-origin: left;
+    -webkit-transform: rotateY(0);
+}
+
+#quotation_container2._css_page_flip.first_touch .item .page { 
+    -webkit-transition: 0.5s ease-in;
+}
+
+#quotation_container2._css_page_flip.ready .item .page.right_page_next {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-transform-origin: right;
+    -webkit-transform: rotateY(180deg);
+}
+
+#quotation_container2._css_page_flip.ready .item .page.right_page {
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#quotation_container2._css_page_flip .item.current .page.right_page, #quotation_container2 .item.current .page.right_page_next {
+    z-index: 1000;
+    visibility: visible;
+}
+
+#quotation_container2._css_page_flip .item.current .page.right_page_next {
+    z-index: 999;
+}
+
+#quotation_container2._css_page_flip .item.turn .page.right_page_next {
+    -webkit-transform: rotateY(0);
+    visibility: visible;
+}
+
+#quotation_container2._css_page_flip .item.turn .page.right_page {
+    -webkit-transform: rotateY(-180deg);
+    visibility: visible;
+}
+
